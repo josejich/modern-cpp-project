@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678232812072,
+  "lastUpdate": 1678266136562,
   "repoUrl": "https://github.com/josejich/modern-cpp-project",
   "entries": {
     "Benchmark": [
@@ -192,6 +192,38 @@ window.BENCHMARK_DATA = {
             "value": 56162.574935816134,
             "unit": "ns/iter",
             "extra": "iterations: 12464\ncpu: 56159.05006418484 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "josejich",
+            "username": "josejich"
+          },
+          "committer": {
+            "name": "josejich",
+            "username": "josejich"
+          },
+          "id": "990234f304d794daa79613b2b5c00946cc010efb",
+          "message": "Test PR Commit",
+          "timestamp": "2023-03-06T10:21:20Z",
+          "url": "https://github.com/josejich/modern-cpp-project/pull/1/commits/990234f304d794daa79613b2b5c00946cc010efb"
+        },
+        "date": 1678266135208,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "InterpolationConstExpr",
+            "value": 4.911178228520003,
+            "unit": "ns/iter",
+            "extra": "iterations: 142518414\ncpu: 4.9106096563774555 ns\nthreads: 1"
+          },
+          {
+            "name": "InterpolationRuntime",
+            "value": 56170.98291078223,
+            "unit": "ns/iter",
+            "extra": "iterations: 12464\ncpu: 56168.30872913992 ns\nthreads: 1"
           }
         ]
       }
