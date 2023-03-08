@@ -1,0 +1,12 @@
+/**
+@mainpage Modern CPP project
+
+@section design Design explanation
+
+The following diagram shows the series of blocks used for the proposed design. In each of the blocks, the expected types for each of the blocks are represented. This alongside the requiremens was used to generate a series of tests which dictated the expected behaviour of each block. The tests can be found under the tests folder.
+
+\image{inline} html ./BlockDiagram.png "Block diagram"
+
+Each block is properly documented and the type used for each method is specified in the documentation.
+
+*/
