@@ -4,7 +4,6 @@ on:
   push:
     tags:
       - 'v*'
-    branches: [main, develop]
 
 env:
   BUILD_TYPE: Release
@@ -23,9 +22,9 @@ jobs:
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}} || cd build  || make doc
 
     - name: Create Artifacts
-      run: cd build || 
+      run: tar -czf release.tar.gz build/bin build/lib build/doc
 
     - uses: ncipollo/release-action@v1
       with:
-        artifacts: "release.tar.gz,foo/*.txt"
-        bodyFile: "body.md"
+        artifacts: "release.tar.gz"
+        bodyFile: "README.md"
