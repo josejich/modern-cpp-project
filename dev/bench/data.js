@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678709401433,
+  "lastUpdate": 1678709619682,
   "repoUrl": "https://github.com/josejich/modern-cpp-project",
   "entries": {
     "Benchmark": [
@@ -336,6 +336,42 @@ window.BENCHMARK_DATA = {
             "value": 33277.040801083655,
             "unit": "ns/iter",
             "extra": "iterations: 21421\ncpu: 33183.091358946825 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "josejich@gmail.com",
+            "name": "Jose Jimenez",
+            "username": "josejich"
+          },
+          "committer": {
+            "email": "josejich@gmail.com",
+            "name": "Jose Jimenez",
+            "username": "josejich"
+          },
+          "distinct": true,
+          "id": "cce9d1cb18ced324455495f35ec75f7d632d846c",
+          "message": "Add release action",
+          "timestamp": "2023-03-13T13:12:10+01:00",
+          "tree_id": "b348be283729713a988b91e8cd85fe8ae0301ec4",
+          "url": "https://github.com/josejich/modern-cpp-project/commit/cce9d1cb18ced324455495f35ec75f7d632d846c"
+        },
+        "date": 1678709618218,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "CalculationConstExpr",
+            "value": 5.789378181362986,
+            "unit": "ns/iter",
+            "extra": "iterations: 120111051\ncpu: 5.7891317594082174 ns\nthreads: 1"
+          },
+          {
+            "name": "CalculationRuntime",
+            "value": 56220.98409510894,
+            "unit": "ns/iter",
+            "extra": "iterations: 12449\ncpu: 56220.620130130934 ns\nthreads: 1"
           }
         ]
       }
