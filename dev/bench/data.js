@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678709397468,
+  "lastUpdate": 1678709401433,
   "repoUrl": "https://github.com/josejich/modern-cpp-project",
   "entries": {
     "Benchmark": [
@@ -264,6 +264,42 @@ window.BENCHMARK_DATA = {
             "value": 46815.62939681677,
             "unit": "ns/iter",
             "extra": "iterations: 14954\ncpu: 46809.57603316838 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "josejich@gmail.com",
+            "name": "Jose Jimenez",
+            "username": "josejich"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "020eb17a0534043061836c80d70877fbf664d2df",
+          "message": "Merge pull request #4 from josejich/feature/add-documentation\n\nFeature/add documentation",
+          "timestamp": "2023-03-13T13:08:19+01:00",
+          "tree_id": "1df41c88171c14595ec08123af617863c1ce3bda",
+          "url": "https://github.com/josejich/modern-cpp-project/commit/020eb17a0534043061836c80d70877fbf664d2df"
+        },
+        "date": 1678709395843,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "CalculationConstExpr",
+            "value": 5.775917823231567,
+            "unit": "ns/iter",
+            "extra": "iterations: 118270214\ncpu: 5.758734823968443 ns\nthreads: 1"
+          },
+          {
+            "name": "CalculationRuntime",
+            "value": 33277.040801083655,
+            "unit": "ns/iter",
+            "extra": "iterations: 21421\ncpu: 33183.091358946825 ns\nthreads: 1"
           }
         ]
       },
