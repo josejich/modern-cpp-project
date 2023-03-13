@@ -4,16 +4,10 @@
 
 #include <memory>
 
-namespace Factory
-{
+namespace Factory {
 
-    enum class CalculationType
-    {
-        CONSTEXPR = 0,
-        RUNTIME,
-        INVALID
-    };
+enum class CalculationType { CONSTEXPR = 0, RUNTIME, INVALID };
 
-    std::unique_ptr<ICalculation> CreateCalculation(CalculationType type);
+std::unique_ptr<ICalculation> CreateCalculation(CalculationType type);
 
-}
+} // namespace Factory

@@ -3,10 +3,18 @@
 
 @section design Design explanation
 
-The following diagram shows the series of blocks used for the proposed design. In each of the blocks, the expected types for each of the blocks are represented. This alongside the requiremens was used to generate a series of tests which dictated the expected behaviour of each block. The tests can be found under the tests folder.
+The following diagram shows the series of blocks used for the proposed design. In each of the blocks, the expected types for each of the methods are represented. This alongside the requiremens was used to generate a series of tests which dictated the expected behaviour of each block. The tests can be found under the tests folder.
 
 \image{inline} html ./BlockDiagram.png "Block diagram"
 
-Each block is properly documented and the type used for each method is specified in the documentation.
+In C++, the ability to evaluate differences in the execution of a program in compile time or in runtime is essential for efficient and effective software development. One proposed interface that facilitates this capability is through the use of templates.
 
+Templates allow C++ programmers to write generic code that can be used with different types or values at compile time. This means that the template code is evaluated by the compiler before the program is run. In contrast, non-template code is evaluated at runtime when the program is executed.
+
+By using templates, programmers can evaluate differences in program execution in compile time or in runtime. This is particularly useful for performance-critical applications where every microsecond counts. With templates, programmers can optimize code at compile time, reducing the overhead that comes with runtime evaluation.
+
+Furthermore, templates provide a flexible mechanism for code reuse and reduce the potential for coding errors, making them an essential tool for C++ programmers. With the proposed interface, C++ programmers have a powerful tool for evaluating differences in program execution at the right time, resulting in more efficient and effective software development.
+
+The proposed diagram proposes a single interface that will be used to evaluate a given implementation on either runtime or compile time execution (by means of a table that will be accessed in runtime).
+In order to access these implementations using the same interface, a factory abstract pattern is introduced as showed on the Block Diagram.
 */

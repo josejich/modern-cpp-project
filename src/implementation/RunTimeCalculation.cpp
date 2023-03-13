@@ -4,6 +4,5 @@
 
 float RunTimeCalculation::PerformCalculation(float input) {
 
-return FunctionRuntime(input);
-
+  return FunctionRuntime(input);
 }
