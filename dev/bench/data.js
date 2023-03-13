@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678707040423,
+  "lastUpdate": 1678707042106,
   "repoUrl": "https://github.com/josejich/modern-cpp-project",
   "entries": {
     "Benchmark": [
@@ -136,6 +136,38 @@ window.BENCHMARK_DATA = {
             "value": 80199.0286960504,
             "unit": "ns/iter",
             "extra": "iterations: 8712\ncpu: 80196.47612488522 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "josejich",
+            "username": "josejich"
+          },
+          "committer": {
+            "name": "josejich",
+            "username": "josejich"
+          },
+          "id": "b2c667f7ba9f9ae0f6c968dd4969fe35e7c0308f",
+          "message": "Feature/add documentation",
+          "timestamp": "2023-03-08T10:56:29Z",
+          "url": "https://github.com/josejich/modern-cpp-project/pull/4/commits/b2c667f7ba9f9ae0f6c968dd4969fe35e7c0308f"
+        },
+        "date": 1678707039633,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "CalculationConstExpr",
+            "value": 4.90729151713618,
+            "unit": "ns/iter",
+            "extra": "iterations: 142661929\ncpu: 4.90731272812104 ns\nthreads: 1"
+          },
+          {
+            "name": "CalculationRuntime",
+            "value": 56148.100906394284,
+            "unit": "ns/iter",
+            "extra": "iterations: 12467\ncpu: 56147.34098018767 ns\nthreads: 1"
           }
         ]
       },
